@@ -59,6 +59,7 @@ const AirplaneExperience = () => {
             }
         }
 
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
         function setupAnimation(model: Group, THREE: typeof import("three"), gsap: any) {
             renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
             renderer.setSize(window.innerWidth, window.innerHeight);
@@ -372,7 +373,7 @@ const AirplaneExperience = () => {
                             </a>
                         </li>
                         <li>
-                        Desigend by {" "}
+                            Designed by {" "}
                             <a href="https://github.com/Talhajubair100" target="_blank" rel="noopener noreferrer">
                                 Talha Jubair
                             </a>
